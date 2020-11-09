@@ -1,0 +1,12 @@
+[package]
+name = "rust_warp_postgres_deadpool_todos_api"
+version = "0.1.0"
+authors = ["Matt Law <staringskyward@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pretty_env_logger = "0.4.0"
+tokio = { version = "0.2", features = ["full"] }
+warp = "0.2"
